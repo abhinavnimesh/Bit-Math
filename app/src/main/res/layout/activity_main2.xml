@@ -64,7 +64,7 @@ android:layout_marginLeft="8dp"
 
             android:text="Tap to Play"
             android:textColor="#ffffff"
-            android:textSize="45sp"
+            android:textSize="35sp"
             tools:ignore="Suspicious0dp"
             android:layout_weight="1"/>
         <Button
@@ -80,7 +80,7 @@ android:layout_marginLeft="8dp"
             android:foreground="@drawable/ripple"
             android:textColor="#ffffff"
 
-            android:textSize="45sp" />
+            android:textSize="35sp" />
         <Button
             android:id="@+id/button3"
             android:layout_width="match_parent"
@@ -93,7 +93,7 @@ android:layout_marginLeft="8dp"
             android:text="Share"
             android:foreground="@drawable/ripple"
             android:textColor="#ffffff"
-            android:textSize="45sp" />
+            android:textSize="35sp" />
     </LinearLayout>
 
 </RelativeLayout>

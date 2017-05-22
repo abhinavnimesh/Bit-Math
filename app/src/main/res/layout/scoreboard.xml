@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="280dp"
+    android:layout_height="400dp"
+    tools:context="com.animator_abhi.bitmath.Main2Activity"
+    android:layout_gravity="center"
+    android:id="@+id/downLayout"
+    android:orientation="vertical"
+    android:layout_alignBottom="@+id/upLayout"
+    >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+
+        android:foreground="@drawable/ripple"
+
+        android:layout_marginTop="8dp"
+
+        android:text="SCORE"
+        android:textColor="#ffffff"
+        android:textSize="35sp"
+        tools:ignore="Suspicious0dp"
+        android:layout_weight="1"/>
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/button"
+        android:layout_below="@id/button1"
+        android:layout_weight="1"
+        android:text="High Score"
+        android:layout_marginTop="8dp"
+
+        android:foreground="@drawable/ripple"
+        android:textColor="#ffffff"
+
+        android:textSize="35sp" />
+   <LinearLayout android:layout_below="@id/button2"
+       android:orientation="horizontal"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="8dp"
+
+       android:layout_marginLeft="8dp"
+       android:layout_marginRight="8dp"
+       android:layout_marginBottom="8dp"
+       android:layout_width="match_parent"
+       android:background="@drawable/button">
+
+       <ImageView
+           android:id="@+id/button3"
+           android:layout_width="48dp"
+           android:layout_height="48dp"
+           android:layout_marginLeft="8dp"
+           android:layout_marginRight="8dp"
+           android:layout_marginBottom="8dp"
+           android:background="@drawable/homeicon"
+
+           android:layout_weight="1"
+           android:text="High Score"
+           android:layout_marginTop="8dp"
+
+           android:foreground="@drawable/ripple"
+           android:textColor="#ffffff"
+           />
+       <ImageView
+           android:id="@+id/button4"
+           android:layout_width="48dp"
+           android:layout_height="48dp"
+           android:layout_marginLeft="8dp"
+           android:layout_marginRight="8dp"
+           android:layout_marginBottom="8dp"
+           android:background="@drawable/play_again"
+           android:layout_weight="1"
+           android:text="High Score"
+           android:layout_marginTop="8dp"
+
+           android:foreground="@drawable/ripple"
+           android:textColor="#ffffff"
+           />
+
+   </LinearLayout>
+</RelativeLayout>
